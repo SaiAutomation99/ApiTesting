@@ -41,6 +41,7 @@ public class AddingTokens {
 		String name=object.get("id").toString();
 		
 		Assert.assertEquals(2, 2);
+		Assert.assertEquals(Integer.toString(2), "2");
 		
 		System.out.println(name);
 		
