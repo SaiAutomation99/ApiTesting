@@ -2,6 +2,7 @@ package com.qa.tests;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -38,6 +39,8 @@ public class AddingTokens {
 		
 		JSONObject object=new JSONObject(array.get(1).toString());
 		String name=object.get("id").toString();
+		
+		Assert.assertEquals(2, 2);
 		
 		System.out.println(name);
 		
