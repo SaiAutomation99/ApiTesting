@@ -12,27 +12,27 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class PostRequest {
-	
-	
+
+
 	@Test
 	public void postrequest() {
-		
-		
+
+
 		int statuscode=postRequest();
-		
+
 		if(statuscode==201) {
-			
+
 			Assert.assertEquals(201, 201);
 
 		}else {
-			
+
 			throw new RuntimeErrorException(null);
 		}
-		
+
 	}
 
 
-	
+
 	public int postRequest() {
 
 		String post="https://jsonplaceholder.typicode.com/posts";
@@ -50,13 +50,15 @@ public class PostRequest {
 		request.body(obj.toJSONString());
 
 		request.header("content-type", "application/json");
-		
+
 		Response res=request.request(Method.POST);
-		
+
 		System.out.println(res.getStatusCode());
 		
-		
-		
+		System.out.println("restassured");
+
+
+
 		return res.getStatusCode();
 
 
