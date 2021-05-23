@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-28T12:38:58 IST" name="Default suite" finished-at="2021-02-28T12:39:01 IST" duration-ms="3119">
+  <suite started-at="2021-05-23T22:12:57 IST" name="Default suite" finished-at="2021-05-23T22:13:00 IST" duration-ms="2961">
     <groups>
     </groups>
-    <test started-at="2021-02-28T12:38:58 IST" name="Default test" finished-at="2021-02-28T12:39:01 IST" duration-ms="3119">
+    <test started-at="2021-05-23T22:12:57 IST" name="Default test" finished-at="2021-05-23T22:13:00 IST" duration-ms="2961">
       <class name="BarrerToken.TokenGenerator">
-        <test-method signature="tokenGenerator()[pri:0, instance:BarrerToken.TokenGenerator@5fa07e12]" started-at="2021-02-28T12:38:58 IST" name="tokenGenerator" finished-at="2021-02-28T12:39:01 IST" duration-ms="3075" status="PASS">
+        <test-method signature="tokenGenerator()[pri:0, instance:BarrerToken.TokenGenerator@5fa07e12]" started-at="2021-05-23T22:12:57 IST" name="tokenGenerator" finished-at="2021-05-23T22:13:00 IST" duration-ms="2910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tokenGenerator -->
